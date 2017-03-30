@@ -1,0 +1,30 @@
+global-styling:
+  version: VERSION
+  css:
+    base:
+      css/style.css: {}
+  header: true
+  js:
+    js/script.js: {}
+
+fontawesome:
+  remote: http://fontawesome.io/
+  version: 4.7.0
+  license:
+    name: MIT
+    gpl-compatible: true
+  css:
+    theme:
+      https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css: { type: external, minified: true}
+
+semantic-ui:
+  remote: http://semantic-ui.com/
+  version: 2.2.6
+  license:
+    name: MIT
+    gpl-compatible: true
+  js:
+    https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.js: { type: external, minified: true}
+  css:
+    theme:
+      https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.css: { type: external, minified: true}
