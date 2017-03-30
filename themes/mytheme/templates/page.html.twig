@@ -1,7 +1,7 @@
 <div class="ui container">
 	{{page.header}}
 	{%  set str='hello' %}
-	{{str}}
+	{{ dump(logged_in,is_admin)}}
 	{{page.content}}
 	
 </div>
